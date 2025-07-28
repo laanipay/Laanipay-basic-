@@ -323,9 +323,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 For support and inquiries:
-- Email: support@lpnpro.com
-- Phone: +234-XXX-XXXX-XXX
-- Website: https://lpnpro.com
+- **Email**: laanipay1@gmail.com
+- **Phone**: +229 0155 049165
+- **WhatsApp**: https://wa.me/22955049165
+- **YouTube**: https://youtube.com/@laanipay?si=bVEYoMf4cy8R9QId
+- **Motto**: "Experience More, Experience The Best."
 
 ## 🙏 Acknowledgments
 

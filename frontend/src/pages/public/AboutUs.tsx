@@ -84,7 +84,7 @@ const AboutUs: React.FC = () => {
               
               <div className="bg-gradient-to-r from-primary-50 to-secondary-50 p-6 rounded-xl border-l-4 border-primary-500 mb-8">
                 <p className="text-xl font-semibold text-gray-900 text-center">
-                  "Experience More. Experience The Best."
+                  "Experience More, Experience The Best."
                 </p>
                 <p className="text-center text-gray-600 mt-2">Our Motto</p>
               </div>
@@ -365,7 +365,7 @@ const AboutUs: React.FC = () => {
                 Empowering Africa through digital entrepreneurship and telecom solutions.
               </p>
               <p className="text-gray-500 text-sm">
-                "Experience More. Experience The Best."
+                "Experience More, Experience The Best."
               </p>
             </div>
             <div>
@@ -380,10 +380,10 @@ const AboutUs: React.FC = () => {
             <div>
               <h4 className="font-semibold mb-4">Support</h4>
               <ul className="space-y-2 text-gray-400">
-                <li>Email: support@laanipay.com</li>
-                <li>Phone: +234-XXX-XXXX-XXX</li>
-                <li><a href="#" className="hover:text-white transition-colors">Help Center</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Documentation</a></li>
+                <li>Email: laanipay1@gmail.com</li>
+                <li>Phone: +229 0155 049165</li>
+                <li><a href="https://wa.me/22955049165" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">WhatsApp Support</a></li>
+                <li><a href="https://youtube.com/@laanipay?si=bVEYoMf4cy8R9QId" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">YouTube Channel</a></li>
               </ul>
             </div>
             <div>
@@ -397,7 +397,7 @@ const AboutUs: React.FC = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 LaaniPay. All rights reserved. Experience More. Experience The Best.</p>
+            <p>&copy; 2024 LaaniPay. All rights reserved. Experience More, Experience The Best.</p>
           </div>
         </div>
       </footer>

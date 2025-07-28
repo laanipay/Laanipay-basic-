@@ -48,7 +48,7 @@ initializeEmailTransporter();
 const sendEmail = async (options) => {
   try {
     const mailOptions = {
-      from: `"LPN PRO" <${process.env.EMAIL_FROM || 'noreply@lpnpro.com'}>`,
+              from: `"LaaniPay" <${process.env.EMAIL_FROM || 'laanipay1@gmail.com'}>`,
       to: options.to,
       subject: options.subject,
       text: options.text,
