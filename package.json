@@ -1,0 +1,53 @@
+{
+  "name": "lpn-pro-mlm",
+  "version": "1.0.0",
+  "description": "LPN PRO MLM Platform - Complete binary compensation MLM system",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run backend:dev\" \"npm run frontend:dev\"",
+    "start": "concurrently \"npm run backend:start\" \"npm run frontend:start\"",
+    "backend:dev": "cd backend && npm run dev",
+    "backend:start": "cd backend && npm start",
+    "backend:install": "cd backend && npm install",
+    "frontend:dev": "cd frontend && npm start",
+    "frontend:start": "cd frontend && npm start",
+    "frontend:build": "cd frontend && npm run build",
+    "frontend:install": "cd frontend && npm install --legacy-peer-deps",
+    "install:all": "npm run backend:install && npm run frontend:install",
+    "build": "npm run frontend:build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf backend/node_modules frontend/node_modules",
+    "reset": "npm run clean && npm run install:all"
+  },
+  "keywords": [
+    "mlm",
+    "multi-level-marketing",
+    "binary-compensation",
+    "nodejs",
+    "react",
+    "mongodb",
+    "paystack",
+    "flutterwave",
+    "payment-gateway",
+    "jwt-authentication",
+    "admin-dashboard",
+    "referral-system"
+  ],
+  "author": "LPN PRO Team",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/lpn-pro-mlm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/lpn-pro-mlm/issues"
+  },
+  "homepage": "https://github.com/your-org/lpn-pro-mlm#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
